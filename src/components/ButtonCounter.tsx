@@ -4,7 +4,7 @@ interface ButtonCounterProps {
   }
   
   const ButtonCounter = ({ setCount, count }: ButtonCounterProps) => {
-    return <button onClick={() => setCount(count + 1)}>Click me</button>;
+    return <button onClick={() => setCount(count + 1)}>Click me</button>
   };
   
   export default ButtonCounter;
